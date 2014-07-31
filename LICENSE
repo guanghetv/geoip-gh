@@ -1,26 +1,3 @@
-# geoip-local
-
-[![Build Status](https://travis-ci.org/song940/geoip-local.svg?branch=master)](https://travis-ci.org/song940/geoip-local)
-
-geoip  tools for nodejs .
-
-[![NPM](https://nodei.co/npm/geoip-local.png?downloads=true&stars=true)](https://nodei.co/npm/geoip-local/)
-
-
-## Installation
-
-	npm install geoip-local
-
-## Usage
-
-	var geoip = require('geoip-local');
-
-	geoip.lookup('111.193.186.221', function(geo){
-		console.log(geo);
-	});
-
-## Licence
-
 The MIT License (MIT)
 
 Copyright (c) 2014 Lsong
