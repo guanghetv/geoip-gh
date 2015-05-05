@@ -9,15 +9,17 @@ geoip  tools for nodejs .
 
 ## Installation
 
-	npm install geoip-local
+	npm install geoip-local --save
 
 ## Usage
 
-	var geoip = require('geoip-local');
+```javascript
+var geoip = require('geoip-local');
 
-	geoip.lookup('111.193.186.221', function(geo){
-		console.log(geo);
-	});
+geoip.lookup('111.193.186.221', function(geo){
+  console.log(geo);
+});
+```
 
 ## Licence
 
