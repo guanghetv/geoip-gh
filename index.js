@@ -6,7 +6,7 @@ exports.lookup = function(ip, callback){
 	var geo = geoip.lookup(ip);
 
 	if (geo == null) {
-    if (ip === '127.0.0.1' || ip.indexOf('192.168') > -1) {
+    if (!!ip || ip === '127.0.0.1' || ip.indexOf('192.168') > -1) {
         geo = {country: 'local', region: 'local', city: 'local'};
     } else {
         geo = {country: "unknown", region: "unknown", city: "unknown"};
