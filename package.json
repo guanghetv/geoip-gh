@@ -1,10 +1,10 @@
 {
   "name": "geoip-local",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "geoip-local",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
