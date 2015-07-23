@@ -1,20 +1,20 @@
-# geoip-local
+# geoip-gh
 
-[![Build Status](https://travis-ci.org/song940/geoip-local.svg?branch=master)](https://travis-ci.org/song940/geoip-local)
+[![Build Status](https://travis-ci.org/song940/geoip-gh.svg?branch=master)](https://travis-ci.org/song940/geoip-gh)
 
 geoip  tools for nodejs .
 
-[![NPM](https://nodei.co/npm/geoip-local.png?downloads=true&stars=true)](https://nodei.co/npm/geoip-local/)
+[![NPM](https://nodei.co/npm/geoip-gh.png?downloads=true&stars=true)](https://nodei.co/npm/geoip-gh/)
 
 
 ## Installation
 
-	npm install geoip-local --save
+	npm install geoip-gh --save
 
 ## Usage
 
 ```javascript
-var geoip = require('geoip-local');
+var geoip = require('geoip-gh');
 
 geoip.lookup('111.193.186.221', function(geo){
   console.log(geo);
