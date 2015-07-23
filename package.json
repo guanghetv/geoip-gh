@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/song940/geoip-gh.git"
+    "url": "git://github.com/guanghetv/geoip-gh.git"
   },
-  "author": "lsong",
+  "author": "link5209",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/song940/geoip-gh/issues"
+    "url": "https://github.com/guanghetv/geoip-gh/issues"
   },
-  "homepage": "https://github.com/song940/geoip-gh",
+  "homepage": "https://github.com/guanghetv/geoip-gh",
   "dependencies": {
     "geoip-lite": "latest",
     "underscore": "latest"
