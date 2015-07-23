@@ -1,27 +1,30 @@
 {
-  "name": "geoip-local",
+  "name": "geoip-gh",
   "version": "1.0.7",
-  "description": "geoip-local",
+  "description": "geoip-gh",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/song940/geoip-local.git"
+    "url": "git://github.com/song940/geoip-gh.git"
   },
   "author": "lsong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/song940/geoip-local/issues"
+    "url": "https://github.com/song940/geoip-gh/issues"
   },
-  "homepage": "https://github.com/song940/geoip-local",
+  "homepage": "https://github.com/song940/geoip-gh",
   "dependencies": {
     "geoip-lite": "latest",
     "underscore": "latest"
   },
   "keywords": [
     "geoip",
-    "local"
-  ]
+    "gh"
+  ],
+  "directories": {
+    "test": "test"
+  }
 }
