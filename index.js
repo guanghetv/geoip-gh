@@ -39,6 +39,10 @@ exports.lookup = function(ip, callback){
 		geo = local_geo[ ipToInt(ip) ];
 	}
 
+    if (!geo) {
+        return callback(new Error('geo is invalidate .', geo));
+    }
+
 	var region = _.find(regions, {
 		country_code		: geo.country,
 		subcountry_code	: geo.region
